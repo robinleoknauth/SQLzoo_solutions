@@ -14,7 +14,7 @@ AND booking.occupants = rate.occupancy
 WHERE booking.guest_id =
 (SELECT id
   FROM guest
-  WHERE first_name= 'Ruth' AND last_name= 'Cadbury' )
+  WHERE first_name = 'Ruth' AND last_name = 'Cadbury' )
 
 /*
 7)

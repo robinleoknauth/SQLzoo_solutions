@@ -118,8 +118,3 @@ FROM nobel
 WHERE yr > 1999
 GROUP BY 1,2
 HAVING COUNT(subject) = 3;
-
-/*
-)
-
-*/
